@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-31T18:21:24Z" name="Default suite" finished-at="2019-12-31T18:21:29Z" duration-ms="4600">
+    <groups>
+    </groups>
+    <test started-at="2019-12-31T18:21:24Z" name="Default test" finished-at="2019-12-31T18:21:29Z" duration-ms="4600">
+      <class name="com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:24Z" name="setUP" finished-at="2019-12-31T18:21:24Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="SetUpGETSingle()[pri:0, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:24Z" name="SetUpGETSingle" finished-at="2019-12-31T18:21:29Z" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpGETSingle -->
+        <test-method signature="getAllEmployeeRecords()[pri:0, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="getAllEmployeeRecords" finished-at="2019-12-31T18:21:29Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployeeRecords -->
+        <test-method signature="checkStatusCode()[pri:1, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkStatusCode" finished-at="2019-12-31T18:21:29Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:2, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkStatusLine" finished-at="2019-12-31T18:21:29Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkHeaders()[pri:3, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkHeaders" finished-at="2019-12-31T18:21:29Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeaders -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkResponseTime" finished-at="2019-12-31T18:21:29Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkCookies()[pri:5, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkCookies" finished-at="2019-12-31T18:21:29Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test@45dd4eda]" started-at="2019-12-31T18:21:29Z" name="checkserverType" finished-at="2019-12-31T18:21:29Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.restassured.test.Tc001_SingleRestAssured_GET_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
