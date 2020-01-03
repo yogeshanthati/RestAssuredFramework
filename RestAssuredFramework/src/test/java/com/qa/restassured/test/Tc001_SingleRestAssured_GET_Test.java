@@ -24,6 +24,18 @@ public class Tc001_SingleRestAssured_GET_Test extends TestBase{
 
 		@Test(priority=0)
 		public void getAllEmployeeRecords() {
+				
+			// Refer:https://www.toolsqa.com/rest-assured/read-json-response-body-using-rest-assured/
+			
+			JsonPath jsonpathEvaluator=httpResponse.jsonPath();
+			HashMap<String,String>dataMap =jsonpathEvaluator.get("data");
+			
+			if(dataMap.containsKey("last_name")){
+				String lastname= dataMap.get("last_name");
+				System.out.println(lastname);
+        }
+			System.out.println(dataMap);
+		
 			String responseString=httpResponse.getBody().asString();
 			System.out.println(responseString);
 			Assert.assertTrue(responseString!=null);
